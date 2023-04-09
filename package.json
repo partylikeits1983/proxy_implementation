@@ -1,6 +1,6 @@
 {
   "name": "proxy_implementation",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "CLI tool for getting proxy implementation address",
   "main": "index.js",
   "scripts": {
