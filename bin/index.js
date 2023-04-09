@@ -28,39 +28,39 @@ program
 
     switch (rpc_url) {
         case 'ETH':
-            RPC_URL = process.env.ETH_RPC;
+            RPC_URL = "https://eth.llamarpc.com";
             break;
         
         case 'Arbitrum':
-            RPC_URL = process.env.Arbitrum_RPC;
+            RPC_URL = "https://arb1.arbitrum.io/rpc";
             break
         
         case 'Avalanche':
-            RPC_URL = process.env.Avalanche_RPC;
+            RPC_URL = "https://api.avax.network/ext/bc/C/rpc";
             break
         
         case 'BSC':
-            RPC_URL = process.env.BSC_RPC;
+            RPC_URL = "https://bsc-dataseed.binance.org/";
             break
         
         case 'Celo':
-            RPC_URL = process.env.Celo_RPC;
+            RPC_URL = "https://forno.celo.org";
             break
         
         case 'Gnosis':
-            RPC_URL = process.env.Gnosis_RPC;
+            RPC_URL = "https://rpc.gnosis.gateway.fm";
             break
         
         case 'Moonbeam':
-            RPC_URL = process.env.Moonbeam_RPC;
+            RPC_URL = "https://rpc.ankr.com/moonbeam";
             break
             
         case 'Optimism':
-            RPC_URL = process.env.Optimism_RPC;
+            RPC_URL = "https://rpc.ankr.com/optimism";
             break
         
         case 'Polygon':
-            RPC_URL = process.env.Polygon_RPC;
+            RPC_URL = "https://polygon-rpc.com";
             break
         
         default:
