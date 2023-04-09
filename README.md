@@ -14,3 +14,16 @@ npx proxy_implementation -rpc ETH -proxy 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606e
 ### Using a custom RPC URL
 
 If you wish to use a custom RPC url, pass in the url to the -rpc flag.
+
+### RPC URLs
+```md
+Arbitrum_RPC = https://arb1.arbitrum.io/rpc
+Avalanche_RPC = https://api.avax.network/ext/bc/C/rpc
+BSC_RPC = https://bsc-dataseed.binance.org/
+Celo_RPC = https://forno.celo.org
+ETH_RPC = https://eth.llamarpc.com
+Gnosis_RPC = https://rpc.gnosis.gateway.fm
+Moonbeam_RPC = https://rpc.ankr.com/moonbeam
+Optimism_RPC = https://rpc.ankr.com/optimism
+Polygon_RPC = https://polygon-rpc.com
+```
