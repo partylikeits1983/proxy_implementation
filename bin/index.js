@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-
 const Web3 = require("web3");
 const dotenv = require('dotenv');
 const { Command } = require('commander');
@@ -20,9 +19,9 @@ async function getImpl(rpc_url, proxyContract, storagePosition) {
 program
   .version('0.1.0')
   .description('Get Implementation Address for Proxy Contract CLI tool')
-  .option('-rpc, --rpc_url <rpc_url>', 'RPC URL')
-  .option('-proxy, --proxy <proxy>', 'Proxy Address')
-  .option('-s, --storage <storage>', 'Storage Position')
+  .requiredOption('-rpc, --rpc_url <rpc_url>', 'RPC URL')
+  .requiredOption('-proxy, --proxy <proxy>', 'Proxy Address')
+  .option('-s, --storage <storage>', 'Non Standard Storage Position')
   .action(({ rpc_url, proxy, storage }) => {
 
     let RPC_URL;

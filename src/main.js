@@ -19,7 +19,7 @@ program
   .description('Get Implementation Address for Proxy Contract CLI tool')
   .requiredOption('-rpc, --rpc_url <rpc_url>', 'RPC URL')
   .requiredOption('-proxy, --proxy <proxy>', 'Proxy Address')
-  .option('-s, --storage <storage>', 'Storage Position')
+  .option('-s, --storage <storage>', 'Non Standard Storage Position')
   .action(({ rpc_url, proxy, storage }) => {
 
     let RPC_URL;
