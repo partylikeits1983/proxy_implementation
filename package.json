@@ -1,0 +1,19 @@
+{
+  "name": "proxy_implementation",
+  "version": "0.1.0",
+  "description": "CLI tool for getting proxy implementation address",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "proxy_implementation": "bin/index.js"
+  },
+  "author": "Alexander John Lee",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "dotenv": "^16.0.3",
+    "web3": "^1.9.0"
+  }
+}
